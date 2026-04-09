@@ -39,6 +39,17 @@ cd myastroutilities
 pip install -e ".[dev]"
 ```
 
+> **Note for conda users:** If the editable install fails with
+> `ModuleNotFoundError: No module named 'setuptools.backends'`, use:
+>
+> ```bash
+> pip install --config-settings editable_mode=compat -e ".[dev]"
+> ```
+>
+> This is a known limitation of the setuptools package distributed by conda,
+> which omits the `backends` submodule. The workaround forces the legacy
+> `.pth`-file editable install, which works identically.
+
 ---
 
 ## Package structure
