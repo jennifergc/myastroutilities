@@ -18,7 +18,7 @@ This module centralizes those patterns behind simple, documented functions.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

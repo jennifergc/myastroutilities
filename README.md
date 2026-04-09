@@ -2,7 +2,7 @@
 
 **A reusable Python toolkit for radio astronomy data analysis.**
 
-Developed by **Jennifer Grisales** in the context of radio continuum and spectral line
+Developed by **J. Grisales-Casadiegos** in the context of radio continuum and spectral line
 analysis of H II regions and molecular clouds (M17 SW / UC1), this package consolidates
 utilities that were previously scattered across multiple analysis repositories.
 It is designed to be general enough for use in any radio interferometric data reduction
@@ -215,15 +215,15 @@ canonical class with all features from both versions plus configurable PA angles
 
 ## Authorship and citation
 
-**Author:** Jennifer Grisales
+**Author:** J. Grisales-Casadiegos
 **Repository:** https://github.com/jennifergc/myastroutilities
 **License:** MIT
 
 If this package contributes to published research, a citation or acknowledgment
 in the methods section is appreciated:
 
-> *The data reduction and analysis made use of* myastroutilities *(Grisales, 2026),
-> a Python toolkit for radio astronomy developed at [institution].*
+> *The data reduction and analysis made use of* myastroutilities *(J. Grisales-Casadiegos, 2026),
+> a Python toolkit for radio astronomy developed at Universidad de Guanajuato.*
 
 ---
 

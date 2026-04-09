@@ -8,7 +8,7 @@ a regression here could silently affect all notebooks simultaneously.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

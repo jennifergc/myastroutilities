@@ -13,7 +13,7 @@ definition and extends it with two additional helpers.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

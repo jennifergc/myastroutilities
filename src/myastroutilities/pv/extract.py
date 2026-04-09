@@ -13,7 +13,7 @@ computation, PV extraction, FITS output, and two-panel figure generation.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

@@ -27,6 +27,6 @@ Typical usage
 """
 
 __version__ = "0.1.0"
-__author__ = "Jennifer Grisales"
+__author__ = "J. Grisales-Casadiegos"
 __license__ = "MIT"
 __url__ = "https://github.com/jennifergc/myastroutilities"

@@ -12,7 +12,7 @@ those definitions as typed, self-documenting data classes.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

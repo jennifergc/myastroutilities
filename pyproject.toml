@@ -9,7 +9,7 @@ description = "A collection of reusable Python utilities for radio astronomy dat
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
-    { name = "Jennifer Grisales", email = "" }
+    { name = "J. Grisales-Casadiegos", email = "j.grisalescasadiegos@ugto.mx" }
 ]
 keywords = [
     "astronomy",

@@ -15,7 +15,7 @@ features from both versions, plus configurable PA angles.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

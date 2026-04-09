@@ -7,7 +7,7 @@ parsing, and the UC1 constant.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

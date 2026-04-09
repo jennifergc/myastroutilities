@@ -6,7 +6,7 @@ using synthetic in-memory FITS data, without requiring real data files.
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 

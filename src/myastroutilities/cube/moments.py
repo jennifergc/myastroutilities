@@ -13,7 +13,7 @@ implementation with full parameter documentation and a return value
 
 Author
 ------
-Jennifer Grisales
+J. Grisales-Casadiegos
 https://github.com/jennifergc/myastroutilities
 """
 
