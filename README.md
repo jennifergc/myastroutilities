@@ -3,7 +3,7 @@
 **A reusable Python toolkit for radio astronomy data analysis.**
 
 Developed by **J. Grisales-Casadiegos** in the context of radio continuum and spectral line
-analysis of H II regions and molecular clouds (M17 SW / UC1), this package consolidates
+analysis of H II regions and molecular clouds, this package consolidates
 utilities that were previously scattered across multiple analysis repositories.
 It is designed to be general enough for use in any radio interferometric data reduction
 and analysis workflow.
