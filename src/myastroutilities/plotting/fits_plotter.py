@@ -90,6 +90,10 @@ class FITSPlotter:
     pa_length_pix : float, optional
         Length of the PA lines in pixels (WCS mode) or arcseconds
         (delta-coordinate mode). Defaults to 30.0.
+    cmap : str, optional
+        Matplotlib colormap name. Overrides the default colormap defined by
+        ``moment``. For example ``'RdYlBu_r'`` for spectral index maps or
+        ``'magma_r'`` for error maps.
     uc1_coord : SkyCoord, optional
         Reference coordinate used for the star marker and delta-coordinate
         origin. Defaults to the :data:`~myastroutilities.structures.UC1`
@@ -131,6 +135,7 @@ class FITSPlotter:
         show_pa_lines: bool = True,
         pa_angles: tuple = _DEFAULT_PA_ANGLES,
         pa_length_pix: float = 30.0,
+        cmap: Optional[str] = None,
         uc1_coord: Optional[SkyCoord] = None,
         ask: bool = True,
     ):
@@ -149,6 +154,14 @@ class FITSPlotter:
         # Visual configuration derived from the moment type
         self._cfg: MomentConfig = get_moment_config(moment)
         self.colorbar_label = self._cfg.label
+        if cmap is not None:
+            self._cfg = MomentConfig(
+                label=self._cfg.label,
+                unit=self._cfg.unit,
+                colormap=cmap,
+                contour_color=self._cfg.contour_color,
+                star_color=self._cfg.star_color,
+            )
 
         # Load base image
         self.hdul_base = fits.open(self.image_fits)
